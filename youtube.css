@@ -1,0 +1,180 @@
+*{
+    font-family: roboto,arial;
+}
+img{
+    object-fit: cover;
+    border: none;
+    border-radius: 10px;
+}
+#new{
+    display: flex;
+    margin-bottom: 40px;
+    font-size: 10px;
+    align-items: center;
+
+    flex-direction: column;
+}
+.dots{
+    width: 10px;
+}
+
+
+.in{
+    height: 38px;
+    width: 100%;
+    box-shadow: inset 0px 0.5px 0.5px rgba(0, 0, 0, 0.086); 
+
+    border-style: solid;
+    border-color:  rgb(211, 211, 211);
+    border-width: 1px ;
+    border-radius: 20px 0px 0px 20px ;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.microphone{
+    margin-left: 5px;
+    padding: 10px 12px;
+    border: 1px none ;
+    border-radius: 30px;
+}
+.search{
+    min-width: 100px;
+    flex: 2;
+    display: flex;
+    max-width: 700px;
+    align-items: center;
+
+}
+.iim{
+    margin: 0;
+    height: 40px;
+    align-items: center;
+    border-radius: 00px 100px 100px 0px;
+    border-width: 2px  ;
+    border: 1px rgb(211, 211, 211) solid;
+    
+    background-color: rgb(240, 240, 240);
+}
+.settings{
+    background-color: bl;
+    flex: 1;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content:right ;
+    
+    
+}
+.thumbnail{
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+.title{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.imgsearch{
+    padding: 4px 20px;
+}
+.author{
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+.flex-div{
+    position: fixed;
+    top: 0;
+    padding: 20px 0px;
+    background-color: white;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0px;
+
+}
+.menu{
+    width: 20px;
+    
+}
+
+.date{
+   margin-top: 2px; 
+   font-size: 12px;
+
+   color: rgba(0, 0, 0, 0.65);
+}
+.video{
+    width: 100%;
+
+    vertical-align: top;
+}
+.sidebar{
+    position: fixed;
+    top: 82px;
+
+    width: 90px;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.channel{
+    vertical-align: top;
+    
+    border-radius: 20px;
+    width: 40px;
+}
+.details{
+    margin-top: 0;
+    padding-top: 0;
+    vertical-align: top;
+    
+
+}
+
+.login{
+    display: flex;
+    border-radius: 100px;
+    min-width: 82px;
+    align-items: center;
+    column-gap: 6px;
+    padding: 4px 5px;
+    border: 1px rgba(211, 211, 211, 0.555) solid;
+}
+.b-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+body{
+    padding-top: 100px;
+    padding-left: 130px;
+    padding-right: 10px;
+
+}
+.column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 15px;
+    row-gap: 20px;
+}
+.logo{
+    width: 100px;
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    margin-left:20px;
+}
+.divim{
+    flex: 1;
+    margin-left:10px;
+    min-width: 150px;
+    
+}
