@@ -11,7 +11,7 @@ img{
     margin-bottom: 40px;
     font-size: 10px;
     align-items: center;
-
+    font-size: 15px;
     flex-direction: column;
 }
 .dots{
@@ -99,6 +99,11 @@ img{
     margin: 0 0px;
 
 }
+svg{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
 .menu{
     width: 20px;
     
@@ -119,7 +124,7 @@ img{
     position: fixed;
     top: 82px;
 
-    width: 90px;
+    width: 100px;
     left: 0;
     bottom: 0;
     align-items: center;
@@ -155,14 +160,15 @@ img{
 }
 body{
     padding-top: 100px;
-    padding-left: 130px;
-    padding-right: 10px;
+    margin-left: 130px;
+    align-items: center;
 
 }
 .column{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     column-gap: 15px;
+    ;
     row-gap: 20px;
 }
 .logo{
@@ -177,4 +183,17 @@ body{
     margin-left:10px;
     min-width: 150px;
     
+}
+.video,.imgsearch,.menu,.logo,#new,.setting,.login{
+    cursor: pointer;
+}
+@media (max-width:1000px){
+    .column{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width:1200px){
+    .column{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
